@@ -14,6 +14,7 @@
     </style>
 </head>
 <body>
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand d-inline-block align-text-middle" href="{{ url('film/home') }}"><img src="{{ asset('assets/img/Bootstrap_logo.png') }}" alt="logo" height="30">  Bontol</a>
@@ -25,10 +26,13 @@
             </div>
         </div>
     </nav>
+    
 
 
     @yield('main')
-
+    
+    
+    
     {{-- Footer --}}
     <footer class="d-flex shadow flex-wrap justify-content-between align-items-center py-3 my-4 border-top container container-fluid mx-auto rounded " style="background-color: #fcfcfc">
         <div class="col-lg-8 d-flex align-items-center">
